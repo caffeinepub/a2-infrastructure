@@ -63,7 +63,7 @@ export default function Navbar() {
             >
               <img
                 src="/assets/uploads/ChatGPT_Image_Nov_16__2025__01_49_34_PM-removebg-preview-1-1.png"
-                alt="A2 Infrastructure — Sketched to Strength"
+                alt="A2 Infrastructure — Sketch to Strength"
                 className="h-12 w-auto object-contain"
               />
               <span className="text-white font-display font-800 text-sm tracking-[0.12em] uppercase leading-tight">

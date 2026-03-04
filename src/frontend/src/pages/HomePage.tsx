@@ -61,7 +61,7 @@ export default function HomePage() {
         {/* Content */}
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-800 text-white leading-[0.95] tracking-tight animate-fade-up-delay-2">
-            Sketched to{" "}
+            Sketch to{" "}
             <span className="text-gold relative inline-block">
               Strength
               <span className="absolute -bottom-2 left-0 right-0 h-1 bg-gold/30 rounded-full" />
@@ -110,7 +110,9 @@ export default function HomePage() {
 
         {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-white">
-          <span className="text-xs tracking-widest uppercase">Scroll</span>
+          <span className="text-xs tracking-widest uppercase text-white">
+            Scroll
+          </span>
           <ChevronDown className="w-4 h-4 animate-bounce" />
         </div>
 

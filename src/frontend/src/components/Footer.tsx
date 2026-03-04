@@ -89,7 +89,7 @@ export default function Footer() {
             <Link to="/" className="inline-flex items-center gap-3 mb-4">
               <img
                 src="/assets/uploads/ChatGPT_Image_Nov_16__2025__01_49_34_PM-removebg-preview-1-1.png"
-                alt="A2 Infrastructure — Sketched to Strength"
+                alt="A2 Infrastructure — Sketch to Strength"
                 className="h-14 w-auto object-contain"
               />
               <span className="text-white font-display font-800 text-base tracking-[0.12em] uppercase leading-tight">
@@ -104,7 +104,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mt-6">
               <div className="w-8 h-0.5 bg-gold" />
               <span className="text-gold/60 text-xs tracking-widest uppercase font-medium">
-                Sketched to Strength
+                Sketch to Strength
               </span>
             </div>
 
