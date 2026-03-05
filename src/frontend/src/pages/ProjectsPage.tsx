@@ -41,7 +41,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 const PROJECT_IMAGES: Record<number, string> = {
   1: "/assets/generated/project-railway.dim_600x400.jpg",
   2: "/assets/generated/project-pipeline.dim_600x400.jpg",
-  3: "/assets/uploads/Screenshot-241--1.png",
+  3: "/assets/uploads/ChatGPT-Image-Mar-4-2026-10_00_35-PM-1-1.png",
   4: "/assets/generated/project-esr-water.dim_600x400.jpg",
   5: "/assets/generated/project-steel-fab.dim_600x400.jpg",
   6: "/assets/generated/project-autocad-infra.dim_600x400.jpg",

@@ -27,7 +27,7 @@ export default function PageHeader({
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="inline-flex items-center gap-2 mb-4">
           <div className="w-8 h-px bg-gold/70" />
-          <span className="text-gold/80 text-xs tracking-[0.2em] uppercase font-medium">
+          <span className="text-white text-xs tracking-[0.2em] uppercase font-medium">
             A2 Infrastructure
           </span>
           <div className="w-8 h-px bg-gold/70" />

@@ -40,7 +40,7 @@ export default function HomePage() {
         {/* Background image */}
         <div className="absolute inset-0">
           <img
-            src="/assets/generated/hero-infrastructure.dim_1920x900.jpg"
+            src="/assets/uploads/ChatGPT-Image-Mar-4-2026-09_51_16-PM-1.png"
             alt="Infrastructure"
             className="w-full h-full object-cover"
             loading="eager"
@@ -176,8 +176,8 @@ export default function HomePage() {
               <div className="absolute -top-4 -left-4 w-16 h-16 border-t-2 border-l-2 border-gold/40" />
               <div className="absolute -bottom-4 -right-4 w-16 h-16 border-b-2 border-r-2 border-gold/40" />
               <img
-                src="/assets/generated/services-autocad.dim_600x400.jpg"
-                alt="Engineering blueprints and AutoCAD drafting"
+                src="/assets/uploads/Gemini_Generated_Image_lr8mjplr8mjplr8m-1-1.png"
+                alt="Engineering workspace with blueprints and AutoCAD drafting"
                 className="w-full h-72 object-cover rounded-sm shadow-navy"
               />
               <div className="absolute inset-0 bg-navy-deep/10 rounded-sm" />

@@ -78,8 +78,8 @@ export default function AboutPage() {
               <div className="absolute -top-4 -left-4 w-16 h-16 border-t-2 border-l-2 border-gold/40" />
               <div className="absolute -bottom-4 -right-4 w-16 h-16 border-b-2 border-r-2 border-gold/40" />
               <img
-                src="/assets/generated/blueprint-bg.dim_1200x600.jpg"
-                alt="Engineering blueprints"
+                src="/assets/uploads/ChatGPT-Image-Mar-4-2026-10_00_35-PM-1.png"
+                alt="Engineering workspace with AutoCAD drawings"
                 className="w-full h-80 object-cover rounded-sm shadow-navy"
               />
             </div>
@@ -184,20 +184,40 @@ export default function AboutPage() {
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {COMPANY_VALUES.map((value) => (
+            {COMPANY_VALUES.map((value, idx) => (
               <div
                 key={value.title}
-                className="service-card p-8 border border-border rounded-sm text-center hover:shadow-card-hover"
+                className="service-card border border-border rounded-sm text-center hover:shadow-card-hover overflow-hidden"
               >
-                <div className="w-14 h-14 rounded-full bg-navy flex items-center justify-center mx-auto mb-5 text-gold">
-                  {ICON_MAP[value.iconName]}
-                </div>
-                <h3 className="font-display font-700 text-navy-deep text-lg mb-3">
-                  {value.title}
-                </h3>
-                <p className="text-steel text-sm leading-relaxed">
-                  {value.description}
-                </p>
+                {idx === 2 ? (
+                  <>
+                    <img
+                      src="/assets/uploads/Gemini_Generated_Image_lr8mjplr8mjplr8m-1.png"
+                      alt="Engineering workspace"
+                      className="w-full h-40 object-cover"
+                    />
+                    <div className="p-6">
+                      <h3 className="font-display font-700 text-navy-deep text-lg mb-3">
+                        {value.title}
+                      </h3>
+                      <p className="text-steel text-sm leading-relaxed">
+                        {value.description}
+                      </p>
+                    </div>
+                  </>
+                ) : (
+                  <div className="p-8">
+                    <div className="w-14 h-14 rounded-full bg-navy flex items-center justify-center mx-auto mb-5 text-gold">
+                      {ICON_MAP[value.iconName]}
+                    </div>
+                    <h3 className="font-display font-700 text-navy-deep text-lg mb-3">
+                      {value.title}
+                    </h3>
+                    <p className="text-steel text-sm leading-relaxed">
+                      {value.description}
+                    </p>
+                  </div>
+                )}
               </div>
             ))}
           </div>
