@@ -141,7 +141,7 @@ export default function HomePage() {
       {/* ─── Introduction ─────────────────────────────────────────── */}
       <section className="section-light py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="max-w-2xl">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-8 h-px bg-gold" />
@@ -171,16 +171,6 @@ export default function HomePage() {
                 Learn More About Us
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
-            </div>
-            <div className="relative">
-              <div className="absolute -top-4 -left-4 w-16 h-16 border-t-2 border-l-2 border-gold/40" />
-              <div className="absolute -bottom-4 -right-4 w-16 h-16 border-b-2 border-r-2 border-gold/40" />
-              <img
-                src="/assets/uploads/Gemini_Generated_Image_lr8mjplr8mjplr8m-1-1.png"
-                alt="Engineering workspace with blueprints and AutoCAD drafting"
-                className="w-full h-72 object-cover rounded-sm shadow-navy"
-              />
-              <div className="absolute inset-0 bg-navy-deep/10 rounded-sm" />
             </div>
           </div>
         </div>

@@ -147,7 +147,7 @@ export default function Navbar() {
           </div>
           <div className="mt-auto pt-8 border-t border-white/10">
             <p className="text-white/30 text-sm">ainfra2structure@gmail.com</p>
-            <p className="mt-1 text-white/30 text-sm">+91-8544127517</p>
+            <p className="mt-1 text-white/30 text-sm">+91-7667595502</p>
             <div className="flex items-center gap-3 mt-4">
               {[
                 {
@@ -200,7 +200,7 @@ export default function Navbar() {
                 },
                 {
                   label: "WhatsApp",
-                  href: "https://wa.me/918544127517",
+                  href: "https://wa.me/917667595502",
                   icon: (
                     <svg
                       role="img"

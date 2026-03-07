@@ -184,40 +184,22 @@ export default function AboutPage() {
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {COMPANY_VALUES.map((value, idx) => (
+            {COMPANY_VALUES.map((value) => (
               <div
                 key={value.title}
                 className="service-card border border-border rounded-sm text-center hover:shadow-card-hover overflow-hidden"
               >
-                {idx === 2 ? (
-                  <>
-                    <img
-                      src="/assets/uploads/Gemini_Generated_Image_lr8mjplr8mjplr8m-1.png"
-                      alt="Engineering workspace"
-                      className="w-full h-40 object-cover"
-                    />
-                    <div className="p-6">
-                      <h3 className="font-display font-700 text-navy-deep text-lg mb-3">
-                        {value.title}
-                      </h3>
-                      <p className="text-steel text-sm leading-relaxed">
-                        {value.description}
-                      </p>
-                    </div>
-                  </>
-                ) : (
-                  <div className="p-8">
-                    <div className="w-14 h-14 rounded-full bg-navy flex items-center justify-center mx-auto mb-5 text-gold">
-                      {ICON_MAP[value.iconName]}
-                    </div>
-                    <h3 className="font-display font-700 text-navy-deep text-lg mb-3">
-                      {value.title}
-                    </h3>
-                    <p className="text-steel text-sm leading-relaxed">
-                      {value.description}
-                    </p>
+                <div className="p-8">
+                  <div className="w-14 h-14 rounded-full bg-navy flex items-center justify-center mx-auto mb-5 text-gold">
+                    {ICON_MAP[value.iconName]}
                   </div>
-                )}
+                  <h3 className="font-display font-700 text-navy-deep text-lg mb-3">
+                    {value.title}
+                  </h3>
+                  <p className="text-steel text-sm leading-relaxed">
+                    {value.description}
+                  </p>
+                </div>
               </div>
             ))}
           </div>

@@ -131,10 +131,10 @@ export default function ContactPage() {
                       Phone
                     </div>
                     <a
-                      href="tel:+918544127517"
+                      href="tel:+917667595502"
                       className="text-navy font-medium text-sm hover:text-gold transition-colors block"
                     >
-                      +91-8544127517
+                      +91-7667595502
                     </a>
                     <a
                       href="tel:+916299862284"
@@ -358,8 +358,8 @@ export default function ContactPage() {
               {
                 icon: <Phone className="w-6 h-6 text-gold" />,
                 label: "Call Us",
-                value: "+91-8544127517 / +91-6299862284",
-                href: "tel:+918544127517",
+                value: "+91-7667595502 / +91-6299862284",
+                href: "tel:+917667595502",
               },
               {
                 icon: <Clock className="w-6 h-6 text-gold" />,
